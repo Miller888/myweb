@@ -12,7 +12,7 @@ public class WelcomeController {
 	@RequestMapping(value="/")
 	public String welcome(@RequestParam(value="name",required=false,defaultValue="HH")  String message,Model model ) {
 		model.addAttribute("message", message);
-		
+		//
 		return "welcome";
 	}
 
