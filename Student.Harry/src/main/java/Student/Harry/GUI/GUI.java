@@ -80,7 +80,6 @@ public class GUI extends JFrame {
 		
 		response_texArea = new JTextArea();
 		scrollPane_1.setViewportView(response_texArea);
-		response_texArea.setText("abc");
 		setVisible(true);
 	}
 }
